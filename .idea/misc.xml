@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/drawable-v24/ic_baseline_email_24.xml" value="0.1025" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/drawable/add.xml" value="0.139" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/drawable/location.xml" value="0.2335" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_about_us.xml" value="0.28177083333333336" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_contact_me.xml" value="0.28177083333333336" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_contact_us.xml" value="0.2864583333333333" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_donor_signup.xml" value="0.5" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_home_donor.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_home_hospital.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_hospital_dashboard.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_hospital_details.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_hospital_registration.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_login_screen.xml" value="0.22" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_notification_page.xml" value="0.24139492753623187" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_profile.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_reg_select.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_request_received.xml" value="0.3619791666666667" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_send_request_d.xml" value="0.24139492753623187" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_send_request_h.xml" value="0.2504528985507246" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_setting_page.xml" value="0.2864583333333333" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_splash_screen.xml" value="0.25" />
+        <entry key="..\:/androidDev/BloodArranger/app/src/main/res/layout/activity_under_review.xml" value="0.2864583333333333" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

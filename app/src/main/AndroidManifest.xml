@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.bloodArranger.bloodarranger">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.CALL_PHONE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.BloodArranger">
+        <activity
+            android:name=".RequestReceived"
+            android:exported="false" />
+        <activity
+            android:name=".NotificationPage"
+            android:exported="false" />
+        <activity
+            android:name=".SendRequest_D"
+            android:exported="false" />
+        <activity
+            android:name=".SendRequest_H"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalDetails"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalDashboard"
+            android:exported="false" />
+        <activity
+            android:name=".Profile"
+            android:exported="false" />
+        <activity
+            android:name=".AboutUs"
+            android:exported="false" />
+        <activity
+            android:name=".ContactMe"
+            android:exported="false" />
+        <activity
+            android:name=".SettingPage"
+            android:exported="false" />
+        <activity
+            android:name=".UnderReview"
+            android:exported="false" />
+        <activity
+            android:name=".HospitalRegistration"
+            android:exported="false" />
+        <activity
+            android:name=".DonorSignup"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Hospital"
+            android:exported="false" />
+        <activity
+            android:name=".Home_Donor"
+            android:exported="false" />
+        <activity
+            android:name=".RegSelect"
+            android:exported="false" />
+        <activity
+            android:name=".LoginScreen"
+            android:exported="false" />
+        <activity
+            android:name=".SplashScreen"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

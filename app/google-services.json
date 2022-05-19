@@ -1,0 +1,69 @@
+{
+  "project_info": {
+    "project_number": "439403851457",
+    "firebase_url": "https://bloodarranger-171eb-default-rtdb.asia-southeast1.firebasedatabase.app",
+    "project_id": "bloodarranger-171eb",
+    "storage_bucket": "bloodarranger-171eb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439403851457:android:5e05b94841bc2a5f47ae40",
+        "android_client_info": {
+          "package_name": "com.blood.bloodarranger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439403851457-r65dea8d487jmi0sna5j09c335slngni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvtGfpBQ1-QmBRqnq2EjSzcjU_PVY9J08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439403851457-r65dea8d487jmi0sna5j09c335slngni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:439403851457:android:347d8cb2de5f34e147ae40",
+        "android_client_info": {
+          "package_name": "com.bloodArranger.bloodarranger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "439403851457-r65dea8d487jmi0sna5j09c335slngni.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvtGfpBQ1-QmBRqnq2EjSzcjU_PVY9J08"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "439403851457-r65dea8d487jmi0sna5j09c335slngni.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

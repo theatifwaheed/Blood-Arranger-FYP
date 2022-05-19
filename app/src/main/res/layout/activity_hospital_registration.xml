@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#Be5025"
+    tools:context=".HospitalRegistration">
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        app:cardCornerRadius="10dp"
+        app:cardElevation="10dp"
+        android:elevation="10dp"
+        android:background="#fff">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="10dp"
+            android:orientation="vertical">
+
+            <ImageView
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="0dp"
+
+                android:src="@drawable/bloodlogo"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="Hospitals/Blood Organizations Registration"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:text="REGISTER TO CONTINUE"
+                android:textColor="#000"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:gravity="center" />
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:orientation="vertical"
+                android:layout_marginBottom="20dp">
+
+
+
+                <EditText
+                    android:id="@+id/hospName_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_local_hospital_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Hospital/Organization Name"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+
+
+                <EditText
+                    android:id="@+id/hospEmail_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_email_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Email Address"
+                    android:textColor="#000"
+                    android:inputType="textEmailAddress"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+                <EditText
+                    android:id="@+id/hospUsername_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/person"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Username"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+
+
+                <EditText
+                    android:id="@+id/hospPass_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_vpn_key_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Password"
+                    android:inputType="textPassword"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+
+                <EditText
+                    android:id="@+id/hospPhone_R"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/ic_baseline_phone_24"
+                    android:drawablePadding="10dp"
+                    android:hint="Enter Phone Number"
+                    android:textColor="#000"
+                    android:inputType="number"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+                <EditText
+                    android:id="@+id/hospAddress_HR"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/home"
+                    android:drawablePadding="10dp"
+                    android:hint="Address of Hospital"
+                    android:textColor="#000"
+                    android:inputType="textLongMessage"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+                <EditText
+                    android:id="@+id/hospCity_RH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:drawableStart="@drawable/home"
+                    android:drawablePadding="10dp"
+                    android:hint="City of Hospital"
+                    android:textColor="#000"
+                    android:textColorHint="#000"
+                    android:textSize="18sp"
+                    tools:ignore="TouchTargetSizeCheck"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:gravity="center"
+                    >
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hospLong_RH"
+                        android:hint="Longitude"
+                        android:drawableLeft="@drawable/homee"
+                        android:drawablePadding="10dp"
+                        />
+                    <EditText
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/hospLat_RH"
+                        android:hint="Latitude"
+                        android:drawableLeft="@drawable/homee"
+                        android:drawablePadding="10dp"
+                        android:layout_marginLeft="30dp"
+                        />
+
+
+                </LinearLayout>
+
+<!--                <LinearLayout-->
+<!--                    android:layout_width="match_parent"-->
+<!--                    android:layout_height="wrap_content"-->
+<!--                    android:orientation="horizontal"-->
+<!--                    android:gravity="center">-->
+<!--                    <EditText-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/hospAddress_RH"-->
+<!--                        android:hint="Address of Hopital"-->
+<!--                        android:drawableLeft="@drawable/home"-->
+<!--                        android:drawablePadding="10dp"-->
+<!--                        android:layout_marginLeft="30dp"-->
+<!--                        />-->
+
+<!--                    <EditText-->
+<!--                        android:layout_width="wrap_content"-->
+<!--                        android:layout_height="wrap_content"-->
+<!--                        android:id="@+id/hospCity_RH"-->
+<!--                        android:hint="City of Hospital"-->
+<!--                        android:drawableLeft="@drawable/city"-->
+<!--                        android:drawablePadding="10dp"-->
+<!--                        android:layout_marginLeft="30dp"-->
+<!--                        />-->
+
+<!--                </LinearLayout>-->
+
+
+                <Button
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Register Me"
+                    android:id="@+id/Reg_HR"
+                    android:background="@drawable/buttons_background"
+                    android:textColor="#fff"
+                    android:layout_marginTop="20dp"
+                    android:layout_gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/login_HR"
+                    android:text="Already registered? Sign In"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/passwordinfo"
+                    android:text="Password will be sent to your mail after verification"
+                    android:layout_marginTop="15dp"
+                    android:textColor="#000"
+                    android:textStyle="bold"
+                    android:gravity="center"/>
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </androidx.cardview.widget.CardView>
+
+</ScrollView>
